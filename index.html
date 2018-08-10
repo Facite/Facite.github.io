@@ -1,67 +1,17 @@
 <!DOCTYPE html>
 <head>
-	<title>Facite</title>
-	<link rel="stylesheet" href="facite.css">
+	<title>Time Table</title>
+	<link rel="stylesheet" href="time.css">
 </head>
 
 <body>
 
-<div id="note1" class="note">
-					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
-					<textarea class="area">Enter text here</textarea>
-</div>
-			
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById(("note1")));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
 
 
 
 
 
-
-
-
+<!--
 <div id="note2" class="note">
 					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
 					<textarea class="area">Enter text here</textarea>
@@ -349,245 +299,76 @@ function dragElement(elmnt) {
 
 
 </script>
-
-
-
-
-<div id="note7" class="note">
-					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
-					<textarea class="area">Enter text here</textarea>
-</div>
-			
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById(("note7")));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
-
-
-
-
-<div id="note8" class="note">
-					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
-					<textarea class="area">Enter text here</textarea>
-</div>
-			
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById(("note8")));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
+-->
 
 
 
 
 
-<div id="note9" class="note">
-					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
-					<textarea class="area">Enter text here</textarea>
-</div>
-			
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById(("note9")));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
 
 
 
 
-<div id="note10" class="note">
-					<div id="mydivheader"><input type="text" placeholder="TaskName" class="title"></div>
-					<textarea class="area">Enter text here</textarea>
-</div>
-			
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById(("note10")));
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
 
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
 
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
 
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
+
+
+
+
 
 
 
 
 
 	<div id="whole">
-		<div id="heading">
-			<div id="col01" class="divi">To Do
-			</div>
-			<div id="col02" class="divi">On It
-			</div>
-			<div id="col03" class="divi">Almost Done
-			</div>
-			<div id="col04" class="divi">Done
+	
+		<div id="time" class="table">
+			<div id="note1" class="note">
+					<div class="mydivheader" id="mydiv1"><input type="text" placeholder="TaskName" class="title" id="title1"></div>
+					<textarea class="area" id="area1">Enter text here</textarea>
 			</div>
 		</div>
 		
-		<div id="row1" class="row">
-			<div id="col11" class="divi">
-			</div>
-			<div id="col12" class="divi">	
-			</div>
-			<div id="col13" class="divi">
-			</div>
-			<div id="col14" class="divi">
+		<div id="mon" class="table">
+			<div id="note2" class="note">
+					<div class="mydivheader" id="mydiv2"><input type="text" placeholder="TaskName" class="title" id="title2"></div>
+					<textarea class="area" id="area2">Enter text here</textarea>
 			</div>
 		</div>
 		
-
+		<div id="tue" class="table">
+			<div id="note3" class="note">
+					<div class="mydivheader" id="mydiv3"><input type="text" placeholder="TaskName" class="title" id="title3"></div>
+					<textarea class="area" id="area3">Enter text here</textarea>
+			</div>
+		</div>
 		
+		<div id="wed" class="table">
+			<div id="note4" class="note">
+					<div class="mydivheader" id="mydiv4"><input type="text" placeholder="TaskName" class="title" id="title4"></div>
+					<textarea class="area" id="area4">Enter text here</textarea>
+			</div>
+		</div>
+		
+		<div id="thu" class="table">
+			<div id="note5" class="note">
+					<div class="mydivheader" id="mydiv5"><input type="text" placeholder="TaskName" class="title" id="title5"></div>
+					<textarea class="area" id="area5">Enter text here</textarea>
+			</div>
+		</div>
+		
+		<div id="fri" class="table">
+			<div id="note6" class="note">
+					<div class="mydivheader" id="mydiv6"><input type="text" placeholder="TaskName" class="title" id="title6"></div>
+					<textarea class="area" id="area6">Enter text here</textarea>
+			</div>
+		</div>
+	
 	</div>
+
+
+
 </body>
 
