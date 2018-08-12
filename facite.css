@@ -42,7 +42,7 @@ body
 
 .note {
 	width : 100%;
-	height : 83vh;
+	height : 78vh;
     z-index: 9;
     text-align: center;
 	border : 1px solid black;
@@ -61,7 +61,7 @@ body
 .area
 {	
 	 width : 100%;
-	 height : 80vh;
+	 height : 75vh;
 	 background-color: #ffd800;
 	 font-size : 17px;
 }
