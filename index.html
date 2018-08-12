@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <head>
 	<title>Time Table</title>
-	<link rel="stylesheet" href="facite.css">
+	<link rel="stylesheet" href="time.css">
 </head>
 
 <body>
+
 	<div id="whole">
 	
-		<div id="time" class="table">
+		<div id="nav">
+			<b>2017 IPG Batch</b>
+		</div>
+		
+		<div id ="time" class="table">
 			<div id="note1" class="note">
-					<div class="mydivheader" id="mydiv1"><input type="text" placeholder="TaskName" class="title" id="title1"></div>
+					<div class="mydivheader" id="mydiv1"><input type="text" placeholder="Time" class="title" id="title1"></div>
 					<textarea class="area" id="area1">Enter text here</textarea>
 			</div>
 		</div>
+
+		<script>
+		document.getElementById("area1").value = "\n09-10\n\n10-11\n\n11-12\n\n12-01\n\n01-02\n\n02-03\n\n03-04\n\n04-05\n\n05-06\n\n";
+		</script>
 		
 		<div id="mon" class="table">
 			<div id="note2" class="note">
-					<div class="mydivheader" id="mydiv2"><input type="text" placeholder="TaskName" class="title" id="title2"></div>
+					<div class="mydivheader" id="mydiv2"><input type="text" placeholder="Monday" class="title" id="title2"></div>
 					<textarea class="area" id="area2">Enter text here</textarea>
 			</div>
 		</div>
 		
+		<script>
+		document.getElementById("area2").value = "\n-\n\nDBMS\n\nCN\n\nPPM\n\nLunch-break\n\nEM-III\n\nB1-COA-LAB B2-CN-LAB\n\nB1-COA-LAB B2-CN-LAB\n\n-\n\n";
+		</script>
+		
 		<div id="tue" class="table">
 			<div id="note3" class="note">
-					<div class="mydivheader" id="mydiv3"><input type="text" placeholder="TaskName" class="title" id="title3"></div>
+					<div class="mydivheader" id="mydiv3"><input type="text" placeholder="Tuesday" class="title" id="title3"></div>
 					<textarea class="area" id="area3">Enter text here</textarea>
 			</div>
 		</div>
 		
+		<script>
+		document.getElementById("area3").value = "\nDBMS-LAB\n\nDBMS-LAB\n\nCN\n\nEM-III\n\nLunch-break\n\nCOA\n\nB1-CN-LAB B2-COA-LAB\n\nB1-CN-LAB B2-COA-LAB\n\n-\n\n";
+		</script>
+		
 		<div id="wed" class="table">
 			<div id="note4" class="note">
-					<div class="mydivheader" id="mydiv4"><input type="text" placeholder="TaskName" class="title" id="title4"></div>
+					<div class="mydivheader" id="mydiv4"><input type="text" placeholder="Wednesday" class="title" id="title4"></div>
 					<textarea class="area" id="area4">Enter text here</textarea>
 			</div>
 		</div>
 		
+		<script>
+		document.getElementById("area4").value = "\nEM-III\n\nB3-COA-LAB B4-CN-LAB\n\nB3-COA-LAB B4-CN-LAB\n\nPPM\n\nLunch-break\n\nCN\n\nCOA\n\nBME\n\nDBMS\n\n";
+		</script>
+		
 		<div id="thu" class="table">
 			<div id="note5" class="note">
-					<div class="mydivheader" id="mydiv5"><input type="text" placeholder="TaskName" class="title" id="title5"></div>
+					<div class="mydivheader" id="mydiv5"><input type="text" placeholder="Thursday" class="title" id="title5"></div>
 					<textarea class="area" id="area5">Enter text here</textarea>
 			</div>
 		</div>
 		
+		<script>
+		document.getElementById("area5").value = "\n-\n\nBME\n\n-\n\nPPM\n\nLunch-break\n\n-\n\n-\n\nB3-CN-LAB B4-COA-LAB\n\nB3-CN-LAB B4-COA-LAB\n\n";
+		</script>
+		
 		<div id="fri" class="table">
 			<div id="note6" class="note">
-					<div class="mydivheader" id="mydiv6"><input type="text" placeholder="TaskName" class="title" id="title6"></div>
+					<div class="mydivheader" id="mydiv6"><input type="text" placeholder="Friday" class="title" id="title6"></div>
 					<textarea class="area" id="area6">Enter text here</textarea>
 			</div>
 		</div>
+		
+		<script>
+		document.getElementById("area6").value = "\n-\n\n-\n\nCOA\n\nEM-III\n\nLunch-break\n\nDBMS\n\nBME\n\n-\n\n-\n\n";
+		</script>
 	
 	</div>
-	
+
 </body>
 
