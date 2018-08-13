@@ -26,11 +26,11 @@ body
     background-color: #f9c300;
     color: #fff;
 	width : 100%;
+	border : 1px solid black;
 }
 
 .table
-{
-	height : 100%;
+{	height : 84vh;
 	width : 18.2%;
 	float : left;
 }
@@ -45,7 +45,6 @@ body
 	height : 78vh;
     z-index: 9;
     text-align: center;
-	border : 1px solid black;
 	float : left;
 }
 
@@ -64,6 +63,7 @@ body
 	 height : 75vh;
 	 background-color: #ffd800;
 	 font-size : 17px;
+	 border : 1px solid black;
 }
 
 #mydiv2, #mydiv5
@@ -133,6 +133,9 @@ body
 	background-color : #e84b40;
 }
 
-
-
-
+#Updates
+{
+	width : 97.2%;
+	float : left;
+	text-align : left;
+}
