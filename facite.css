@@ -146,7 +146,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) 
 {
 .area{
-	height : 60vh;
+	height : 50vh;
 }
 
 #nav{
@@ -154,12 +154,12 @@ and (max-device-width : 480px)
 }
 
 .note
-{	height : 63vh;
+{	height : 53vh;
 }
 
 .table
 {
-	height : 66vh;
+	height : 56vh;
 }
 
 }
