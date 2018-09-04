@@ -30,7 +30,7 @@ body
 }
 
 .table
-{	height : 86vh;
+{	height : 85vh;
 	width : 18.2%;
 	float : left;
 }
@@ -42,7 +42,7 @@ body
 
 .note {
 	width : 100%;
-	height : 80vh;
+	height : 79vh;
     z-index: 9;
     text-align: center;
 	float : left;
@@ -60,7 +60,7 @@ body
 .area
 {	
 	 width : 100%;
-	 height : 77vh;
+	 height : 76vh;
 	 background-color: #ffd800;
 	 font-size : 17px;
 	 border : 1px solid black;
